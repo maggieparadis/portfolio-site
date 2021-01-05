@@ -70,6 +70,7 @@ a:active { /* selected link */
   color: #c7baa9;
 }
 .button {
+  display: inline-block;
   background-color: transparent;
   color: #c7baa9;
   padding: 8px;
@@ -83,9 +84,11 @@ a:active { /* selected link */
   text-decoration: none;
 }
 .button-social {
+  display: inline-block;
   width: 2.5%
 }
 .button-contact {
+  display: inline-block;
   background-color: #e6cecb;
   color: #ffffff;
   padding: 8px;
