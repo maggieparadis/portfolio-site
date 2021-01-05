@@ -7,8 +7,7 @@ Typography Color (gray): #3b3c3b;
 */
 header {
   background-color: rgba(199, 186, 169, 0.05);
-  padding: 10x;
-  margin: 10px;
+  padding: 30x;
 }
 body {
   background-color: rgba(199, 186, 169, 0.05);
