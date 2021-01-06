@@ -158,6 +158,8 @@ nav>ul>li>a {
   display: inline-block;
   text-align: center;
   width: 100%;
+  padding: 0px 14px;
+  border-bottom: 1px solid #e6cecb;
 }
 #es1 .row {
   display: block;
