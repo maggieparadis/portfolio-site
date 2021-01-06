@@ -230,7 +230,7 @@ a:active {
   border: 1px solid #e6cecb;
   border-radius: 18px;
   text-decoration: none;
-  width: 35%;
+  width: 25%;
 }
 
 .button-contact:hover {
@@ -239,6 +239,6 @@ a:active {
 .button-social > a {
   display: inline-block;
   margin-left: 1px;
-  margin-right: 6px;
-  width: 10%;
+  margin-right: 4px;
+  width: 7%;
 }
