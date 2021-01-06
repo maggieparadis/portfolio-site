@@ -126,10 +126,11 @@ a:active {
   /* id selector */
   background-color: #e6cecb;
   padding-bottom: 5px;
-}
-#hero h2 {
-  text-align: center; /* Centers text */
+  text-align: center;
 }
 #work {
   padding-top: 5px;
+}
+#homeportrait {
+  width: 60%;
 }
