@@ -146,6 +146,15 @@ nav>ul>li>a {
   display: inline-block;
   margin: 12px;
 }
+#aboutpage .container > h1 {
+  display: block;
+  text-align: center;
+}
+#aboutpage .container,
+#aboutpage .row > p {
+  display: inline-inline-block;
+  text-align: center;
+}
 #contact .container > h4 {
   display: inline-block;
   text-transform: uppercase;
@@ -158,10 +167,6 @@ nav>ul>li>a {
 #contact .container > div > p {
   display: block;
   margin: 10px;
-}
-#aboutpage .container > h1 {
-  display: block;
-  text-align: center;
 }
 /* links and buttons */
 a {
