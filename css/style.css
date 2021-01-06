@@ -7,8 +7,21 @@ Typography Color (gray): #3b3c3b;
 */
 header {
   background-color: rgba(199, 186, 169, 0.05);
+  text-align: center;
 }
-
+nav > ul > li {
+  display: inline-block;
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #3b3c3b;
+}
 body {
   background-color: rgba(199, 186, 169, 0.05);
   font-family: 'Source Sans Pro', sans-serif;
@@ -120,7 +133,8 @@ a:active {
 }
 
 #logo {
-  width: 25%;
+  display: inline-block;
+  width: 20%;
 }
 #hero, #about {
   /* id selector */
