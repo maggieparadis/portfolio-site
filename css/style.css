@@ -99,3 +99,7 @@ a:active { /* selected link */
 .button-contact:hover {
     opacity: .6;
   }
+/*layout styling*/
+.container {
+  padding: 0 15px;
+}
