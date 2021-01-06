@@ -8,6 +8,7 @@ Typography Color (gray): #3b3c3b;
 header {
   background-color: rgba(199, 186, 169, 0.05);
 }
+
 body {
   background-color: rgba(199, 186, 169, 0.05);
   font-family: 'Source Sans Pro', sans-serif;
@@ -51,23 +52,28 @@ h5 {
   text-transform: uppercase;
   text-decoration: underline;
 }
-#hero, #about {/* id selector */
-  background-color: #e6cecb;
-}
+
 img {
   width: 100%
 }
+
 a {
   color: #3b3c3b;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
+
 a:hover {
   color: #c7baa9;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
-a:active { /* selected link */
+
+a:active {
+  /* selected link */
   color: #c7baa9;
 }
+
 .button {
   display: inline-block;
   background-color: transparent;
@@ -76,16 +82,19 @@ a:active { /* selected link */
   border: 1px solid #c7baa9;
   border-radius: 10px;
 }
+
 .button:hover {
   background-color: #e6cecb;
   color: #ffffff;
   border: 1px solid #e6cecb;
   text-decoration: none;
 }
+
 .button-social {
   display: inline-block;
   width: 2.5%
 }
+
 .button-contact {
   display: inline-block;
   background-color: #e6cecb;
@@ -95,13 +104,32 @@ a:active { /* selected link */
   border-radius: 10px;
   text-decoration: none;
 }
+
 .button-contact:hover {
-    opacity: .6;
-  }
+  opacity: .6;
+}
+
 /*layout styling*/
 .container {
   padding: 0 15px;
 }
+
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 15px 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
+#logo {
+  width: 25%;
+}
+#hero, #about {
+  /* id selector */
+  background-color: #e6cecb;
+  padding-bottom: 5px;
+}
+#hero h2 {
+  text-align: center; /* Centers text */
+}
+#work {
+  padding-top: 5px;
 }
