@@ -146,14 +146,8 @@ nav>ul>li>a {
   display: inline-block;
   margin: 12px;
 }
-#aboutpage .container > h1,
-#aboutpage .row > h3 {
-  display: block;
-  text-align: center;
-}
-#aboutpage .container > p,
-#aboutpage .row > p {
-  display: inline-inline-block;
+#meetmaggie {
+  margin: 0px 10px;
   text-align: center;
 }
 #contact .container > h4 {
