@@ -146,11 +146,12 @@ nav>ul>li>a {
   display: inline-block;
   margin: 12px;
 }
-#aboutpage .container > h1 {
+#aboutpage .container > h1,
+#aboutpage .row > h3 {
   display: block;
   text-align: center;
 }
-#aboutpage .container,
+#aboutpage .container > p,
 #aboutpage .row > p {
   display: inline-inline-block;
   text-align: center;
