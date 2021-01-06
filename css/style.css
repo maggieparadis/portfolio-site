@@ -181,36 +181,34 @@ a:active {
   padding: 6px;
   border: 1px solid #c7baa9;
   border-radius: 18px;
-  width: 50%;
+  width: 40%;
 }
 
 .button:hover {
-  background-color: #e6cecb;
+  background-color: #c7baa9;
   color: #ffffff;
   border: 1px solid #e6cecb;
   text-decoration: none;
 }
-
-.button-social {
-  display: inline-block;
-  margin-top: 18px;
-  margin-left: 1px;
-  width: 10%;
-}
-
-.button-contact {
-  display: inline-block;
+.button-contact > a {
+  display: block;
   background-color: #e6cecb;
   color: #ffffff;
   text-align: center;
   padding: 6px;
-  margin-top: 10px;
+  margin: 15px 0px 18px 0px;
   border: 1px solid #e6cecb;
   border-radius: 18px;
   text-decoration: none;
-  width: 50%;
+  width: 35%;
 }
 
 .button-contact:hover {
   opacity: .6;
+}
+.button-social > a {
+  display: inline-block;
+  margin-left: 1px;
+  margin-right: 6px;
+  width: 10%;
 }
