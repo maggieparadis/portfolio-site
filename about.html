@@ -22,8 +22,12 @@
 
 <body>
   <header>
-    <div>
-      <img src="img/MyLogo_DESIGN BOARD-3.svg" alt="My Logo">
+      <div id="logo">
+        <picture>
+          <source srcset="img/home/mylogo@x1.png" media="(max-width:767px)">
+          <img src="img/home/mylogo@x2.png" alt="My Logo">
+        </picture>
+      </div>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -32,10 +36,9 @@
           <li><a href="#Contact">Contact</a></li>
         </ul>
       </nav>
-    </div>
   </header>
 
-  <div>
+  <main>
     <div>
       <picture>
         <source srcset="img/about/aboutportrait@1x.jpg" media="(max-width:767px)">
@@ -68,7 +71,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </main>
 
 
   <footer id="Contact">
