@@ -159,6 +159,7 @@ nav>ul>li>a {
   text-align: center;
   width: 100%;
   padding: 2px 18px 18px 18px;
+  border-bottom: 1px solid #e6cecb;
 }
 #es1 .row {
   display: block;
@@ -167,6 +168,9 @@ nav>ul>li>a {
 #es1 .row > picture {
   display: block;
   line-height: 0;
+}
+#contact {
+  background-color: rgba(199, 186, 169, 0.05);
 }
 #contact .container > h4 {
   display: inline-block;
