@@ -5,23 +5,10 @@ Primary Color (pink): #e6cecb;
 Secondary Color (tan): #c7baa9;
 Typography Color (gray): #3b3c3b;
 */
-header {
-  background-color: rgba(199, 186, 169, 0.05);
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
-nav > ul > li {
-  display: inline-block;
-  list-style-type: none;
-  padding-bottom: 10px;
-}
-nav > ul > li > a {
-  padding: 0 15px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 400;
-  color: #3b3c3b;
-}
+
 body {
   background-color: rgba(199, 186, 169, 0.05);
   font-family: 'Source Sans Pro', sans-serif;
@@ -70,6 +57,105 @@ img {
   width: 100%
 }
 
+/*layout styling*/
+header {
+  background-color: rgba(199, 186, 169, 0.05);
+  text-align: center;
+  position: relative;
+}
+
+#logo {
+  display: inline-block;
+  padding: 16px 0px 0px 0px;
+  /* Adds 10px top, 5px right, 15px bottom, 5px left */
+  width: 23%;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav>ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px 1px 10px 1px;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li>a {
+  padding: 0 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #3b3c3b;
+}
+
+.container {
+  padding: 0 14px;
+}
+
+.row {
+  margin: 14px 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
+#hero {
+  /* id selector */
+  display: inline-block;
+  background-color: #e6cecb;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+#work > h1 {
+  display: inline-block;
+  text-align: left;
+  margin: 18px 14px 14px 14px;
+}
+#work .row {
+  display: inline-block;
+  text-align: left;
+  margin-top: 0px;
+}
+#about {
+  /* id selector */
+  display: inline-block;
+  background-color: #e6cecb;
+  text-align: center;
+}
+#homeportrait {
+  display: inline-block;
+  width: 60%;
+}
+#about > p {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px 13px;
+}
+#about .container > a {
+  display: inline-block;
+  margin: 12px;
+}
+#contact .container > h4 {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+#contact .container > h5 {
+  display: block;
+  margin: 0px;
+}
+#contact .container > div > p {
+  display: block;
+  margin: 10px;
+}
+/* links and buttons */
 a {
   color: #3b3c3b;
   text-decoration: none;
@@ -91,9 +177,11 @@ a:active {
   display: inline-block;
   background-color: transparent;
   color: #c7baa9;
-  padding: 8px;
+  text-align: center;
+  padding: 6px;
   border: 1px solid #c7baa9;
-  border-radius: 10px;
+  border-radius: 18px;
+  width: 50%;
 }
 
 .button:hover {
@@ -105,46 +193,24 @@ a:active {
 
 .button-social {
   display: inline-block;
-  width: 2.5%
+  margin-top: 18px;
+  margin-left: 1px;
+  width: 10%;
 }
 
 .button-contact {
   display: inline-block;
   background-color: #e6cecb;
   color: #ffffff;
-  padding: 8px;
+  text-align: center;
+  padding: 6px;
+  margin-top: 10px;
   border: 1px solid #e6cecb;
-  border-radius: 10px;
+  border-radius: 18px;
   text-decoration: none;
+  width: 50%;
 }
 
 .button-contact:hover {
   opacity: .6;
-}
-
-/*layout styling*/
-.container {
-  padding: 0 15px;
-}
-
-.row {
-  margin: 15px 0;
-  /* 25px top and bottom, 0 left and right */
-}
-
-#logo {
-  display: inline-block;
-  width: 20%;
-}
-#hero, #about {
-  /* id selector */
-  background-color: #e6cecb;
-  padding-bottom: 5px;
-  text-align: center;
-}
-#work {
-  padding-top: 5px;
-}
-#homeportrait {
-  width: 60%;
 }
