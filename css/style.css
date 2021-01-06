@@ -147,10 +147,18 @@ nav>ul>li>a {
   margin: 12px;
 }
 #meetmaggie {
+  background-color: rgba(199, 186, 169, 0.05);
   margin: 0px 10px;
   text-align: center;
   padding-bottom: 8px;
   border-bottom: 1px solid #e6cecb;
+}
+#es1 {
+  background-color: rgba(199, 186, 169, 0.05);
+  display: inline-block;
+  text-align: center;
+  padding: 12px 0px;
+  width: 100%;
 }
 #contact .container > h4 {
   display: inline-block;
