@@ -149,6 +149,8 @@ nav>ul>li>a {
 #meetmaggie {
   margin: 0px 10px;
   text-align: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e6cecb;
 }
 #contact .container > h4 {
   display: inline-block;
