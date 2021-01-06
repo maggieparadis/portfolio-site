@@ -56,12 +56,16 @@ h5 {
 img {
   width: 100%
 }
+picture {
+  width: 100%
+}
 
 /*layout styling*/
 header {
   background-color: rgba(199, 186, 169, 0.05);
   text-align: center;
   position: relative;
+  width: 100%;
 }
 
 #logo {
@@ -154,6 +158,10 @@ nav>ul>li>a {
 #contact .container > div > p {
   display: block;
   margin: 10px;
+}
+#aboutpage > h1 {
+  display: block;
+  text-align: center;
 }
 /* links and buttons */
 a {
