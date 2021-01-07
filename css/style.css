@@ -118,7 +118,9 @@ nav>ul>li>a {
   width: 100%;
   text-align: center;
 }
-
+#work {
+  display: inline-block;
+}
 #work>h1 {
   display: inline-block;
   text-align: left;
@@ -277,13 +279,12 @@ Medium devices (640px and larger)
   }
 
   .col-md-4 {
-    width: 33.3%;
+    width: 30%;
   }
 
-  [class*="col-"] {
+  .col-md-6 {
     float: left;
   }
-
   body {
     text-size: 18px;
   }
@@ -328,13 +329,18 @@ Medium devices (640px and larger)
   #hero span {
     display: block;
   }
-
-  .row::after {
+  #hero .row::after {
     content: "";
     clear: both;
     display: table;
   }
-
+#work .row {
+  text-align: center;
+  display: inline-block;
+}
+.col-md-4 {
+  display: inline-table;
+}
   .button {
     display: inline-block;
     background-color: transparent;
@@ -352,7 +358,7 @@ Medium devices (640px and larger)
     border: 1px solid #e6cecb;
     text-decoration: none;
   }
-
+}
   /* ==============================
 Large devices (1024px or larger)
 ================================= */
