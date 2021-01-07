@@ -57,6 +57,7 @@ h5 {
 img {
   width: 100%
 }
+
 picture {
   width: 100%
 }
@@ -118,35 +119,41 @@ nav>ul>li>a {
   text-align: center;
 }
 
-#work > h1 {
+#work>h1 {
   display: inline-block;
   text-align: left;
   margin: 18px 14px 14px 14px;
 }
+
 #work .row {
   display: inline-block;
   text-align: left;
   margin-top: 0px;
 }
+
 #about {
   /* id selector */
   display: inline-block;
   background-color: #e6cecb;
   text-align: center;
 }
+
 #homeportrait {
   display: inline-block;
   width: 60%;
 }
-#about > p {
+
+#about>p {
   display: inline-block;
   margin: 0px;
   padding: 0px 13px;
 }
-#about .container > a {
+
+#about .container>a {
   display: inline-block;
   margin: 12px;
 }
+
 #meetmaggie {
   background-color: rgba(199, 186, 169, 0.05);
   margin: 0px 10px;
@@ -154,11 +161,13 @@ nav>ul>li>a {
   padding-bottom: 8px;
   border-bottom: 1px solid #e6cecb;
 }
+
 #portfolio {
   /* id selector */
   display: inline-block;
   background-color: rgba(199, 186, 169, 0.05);
 }
+
 #pp {
   background-color: rgba(199, 186, 169, 0.05);
   display: inline-block;
@@ -167,28 +176,34 @@ nav>ul>li>a {
   padding: 2px 18px 18px 18px;
   border-bottom: 1px solid #e6cecb;
 }
+
 #pp .row {
   display: block;
   margin: 0;
 }
-#pp .row > picture {
+
+#pp .row>picture {
   display: block;
   line-height: 0;
 }
+
 #contact {
   background-color: rgba(199, 186, 169, 0.05);
   padding-bottom: 14px;
 }
-#contact .container > h4 {
+
+#contact .container>h4 {
   display: inline-block;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-#contact .container > h5 {
+
+#contact .container>h5 {
   display: block;
   margin: 0px;
 }
-#contact .container > div > p {
+
+#contact .container>div>p {
   display: block;
   margin: 10px;
 }
@@ -228,7 +243,8 @@ a:active {
   border: 1px solid #e6cecb;
   text-decoration: none;
 }
-.button-contact > a {
+
+.button-contact>a {
   display: block;
   background-color: #e6cecb;
   color: #ffffff;
@@ -244,7 +260,8 @@ a:active {
 .button-contact:hover {
   opacity: .6;
 }
-.button-social > a {
+
+.button-social>a {
   display: inline-block;
   margin-left: 1px;
   margin-right: 4px;
@@ -258,54 +275,66 @@ Medium devices (640px and larger)
   .col-md-6 {
     width: 50%;
   }
+
   .col-md-4 {
-  width: 33.3%;
-}
-[class*="col-"] {
-  float: left;
-}
-body {
-  text-size: 18px;
-}
-header {
+    width: 33.3%;
+  }
+
+  [class*="col-"] {
+    float: left;
+  }
+
+  body {
+    text-size: 18px;
+  }
+
+  header {
     text-align: unset;
     padding: 24px 18px;
-}
-nav {
-width: auto;
-float: right;
-margin-top: 10px;
-}
-nav>ul>li>a {
-  padding: 0 18px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 400;
-  color: #c1836c;
-}
-#logo {
-  padding: 0;
-}
-.vertical {
-            border: 1px solid rgba(59,60, 59, 0.7);
-            height: 200px;
-            position: absolute;
-            align-content: center;
-            left: 55%;
-        }
-#hero h2 {
-  padding-top: 80px;
-  line-height: 1.8em;
-}
-#hero span {
-  display: block;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 10px;
+  }
+
+  nav>ul>li>a {
+    padding: 0 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #c1836c;
+  }
+
+  #logo {
+    padding: 0;
+  }
+
+  .vertical {
+    border: 1px solid rgba(59, 60, 59, 0.7);
+    height: 200px;
+    position: absolute;
+    align-content: center;
+    left: 55%;
+  }
+
+  #hero h2 {
+    padding-top: 80px;
+    line-height: 1.8em;
+  }
+
+  #hero span {
+    display: block;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
   .button {
     display: inline-block;
     background-color: transparent;
@@ -322,16 +351,14 @@ nav>ul>li>a {
     color: #ffffff;
     border: 1px solid #e6cecb;
     text-decoration: none;
-}
+  }
 
-/* ==============================
+  /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
-}
+  @media only screen and (min-width: 1024px) {}
 
-/* ==============================
+  /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-}
+  @media only screen and (min-width: 1440px) {}
