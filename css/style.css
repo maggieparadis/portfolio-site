@@ -293,7 +293,7 @@ Medium devices (640px and larger)
   }
 
   body {
-    text-size: 18px;
+    font-size: 15px;
   }
 
   header {
@@ -319,7 +319,21 @@ Medium devices (640px and larger)
   #logo {
     padding: 0;
   }
+  #hero {
+    padding-bottom: 20px;
+  }
+  #hero h2 {
+    float: right;
+    text-align: justify;
+    padding-top: 60px;
+    padding-right: 17px;
+    letter-spacing: 2px;
+    line-height: 1.8em;
+  }
 
+  #hero span {
+    display: block;
+  }
   .vertical {
     border: 1px solid rgba(59, 60, 59, 0.7);
     height: 200px;
@@ -327,35 +341,40 @@ Medium devices (640px and larger)
     align-content: center;
     left: 55%;
   }
-
-  #hero h2 {
-    padding-top: 80px;
-    line-height: 1.8em;
-  }
-
-  #hero span {
-    display: block;
-  }
-
-  #hero .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
   #work h1 {
     margin-left: 7%;
   }
-
-  #work .row {
-    text-align: center;
-    display: inline-block;
+  #work h4 {
+    margin: 5px 0px;
   }
-
+  #work p {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+  }
+  #work .row {
+  text-align: center;
+  }
   .col-md-4 {
     display: inline-table;
   }
-
+  #work .vertical {
+    border: 1px solid rgba(59, 60, 59, 0.7);
+    height: 400px;
+    position: absolute;
+    align-content: space-between;
+    top: 77.5%;
+    left: 34.6%;
+  }
+  #work .vertical2 {
+    border: 1px solid rgba(59, 60, 59, 0.7);
+    height: 400px;
+    position: absolute;
+    align-content: space-between;
+    top: 77.5%;
+    left: 65%;
+}
   .button {
     display: inline-block;
     background-color: transparent;
