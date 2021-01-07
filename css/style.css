@@ -255,6 +255,15 @@ a:active {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-4 {
+  width: 33.3%;
+}
+[class*="col-"] {
+  float: left;
+}
 body {
   text-size: 18px;
 }
@@ -277,6 +286,14 @@ nav>ul>li>a {
 }
 #logo {
   padding: 0;
+}
+#hero span {
+  display: block;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
   .button {
     display: inline-block;
