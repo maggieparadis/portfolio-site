@@ -153,6 +153,11 @@ nav>ul>li>a {
   padding-bottom: 8px;
   border-bottom: 1px solid #e6cecb;
 }
+#portfolio {
+  /* id selector */
+  display: inline-block;
+  background-color: rgba(199, 186, 169, 0.05);
+}
 #pp {
   background-color: rgba(199, 186, 169, 0.05);
   display: inline-block;
