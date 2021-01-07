@@ -288,10 +288,11 @@ nav>ul>li>a {
   padding: 0;
 }
 .vertical {
-            border-left: 1px #c7baa9;;
-            height: 50px;
-            position:absolute;
-            left: 50%;
+            border: 1px solid rgba(59,60, 59, 0.5);
+            height: 200px;
+            position: absolute;
+            top: 17%;
+            left: 55%;
         }
 #hero h2 {
   padding-top: 80px;
