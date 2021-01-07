@@ -287,6 +287,9 @@ nav>ul>li>a {
 #logo {
   padding: 0;
 }
+#hero h2 {
+  padding-top: 80px;
+}
 #hero span {
   display: block;
 }
