@@ -191,6 +191,7 @@ nav>ul>li>a {
   display: block;
   margin: 10px;
 }
+
 /* links and buttons */
 a {
   color: #3b3c3b;
@@ -247,4 +248,38 @@ a:active {
   margin-left: 1px;
   margin-right: 4px;
   width: 7%;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  .button {
+    display: inline-block;
+    background-color: transparent;
+    color: #c7baa9;
+    text-align: center;
+    padding: 6px;
+    border: 1px solid #c7baa9;
+    border-radius: 18px;
+    width: 30%;
+  }
+
+  .button:hover {
+    background-color: #c7baa9;
+    color: #ffffff;
+    border: 1px solid #e6cecb;
+    text-decoration: none;
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
