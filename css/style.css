@@ -259,12 +259,15 @@ body {
 }
 header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 24px 18px;
 }
 nav {
 width: auto;
-float: right
-margin-top: 4px;
+float: right;
+margin-top: 10px;
+}
+#logo {
+  padding: 0;
 }
   .button {
     display: inline-block;
