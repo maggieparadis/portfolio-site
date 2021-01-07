@@ -3,6 +3,7 @@ Colors used:
 Background (cream): rgba(199, 186, 169, 0.05);
 Primary Color (pink): #e6cecb;
 Secondary Color (tan): #c7baa9;
+Secondary Color (burnt orange): #c1836c;
 Typography Color (gray): #3b3c3b;
 */
 * {
@@ -96,7 +97,7 @@ nav>ul>li>a {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 400;
-  color: #3b3c3b;
+  color: #c1836c;
 }
 
 .container {
@@ -265,6 +266,14 @@ nav {
 width: auto;
 float: right;
 margin-top: 10px;
+}
+nav>ul>li>a {
+  padding: 0 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #c1836c;
 }
 #logo {
   padding: 0;
