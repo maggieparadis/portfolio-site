@@ -288,14 +288,15 @@ nav>ul>li>a {
   padding: 0;
 }
 .vertical {
-            border: 1px solid rgba(59,60, 59, 0.5);
+            border: 1px solid rgba(59,60, 59, 0.7);
             height: 200px;
             position: absolute;
-            top: 17%;
+            align-content: center;
             left: 55%;
         }
 #hero h2 {
   padding-top: 80px;
+  line-height: 1.8em;
 }
 #hero span {
   display: block;
