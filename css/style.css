@@ -157,11 +157,6 @@ nav>ul>li>a {
   padding: 0px 13px;
 }
 
-#about .container>a {
-  display: inline-block;
-  margin: 12px;
-}
-
 #meetmaggie {
   background-color: rgba(199, 186, 169, 0.05);
   margin: 0px 10px;
@@ -235,6 +230,7 @@ a:active {
 }
 
 .button {
+  margin-bottom: 14px;
   display: inline-block;
   background-color: transparent;
   color: #c7baa9;
@@ -242,7 +238,7 @@ a:active {
   padding: 6px;
   border: 1px solid #c7baa9;
   border-radius: 18px;
-  width: 40%;
+  width: 48%;
 }
 
 .button:hover {
@@ -341,6 +337,9 @@ Medium devices (640px and larger)
     align-content: center;
     left: 55%;
   }
+  #work {
+    margin: 20px 0px;
+  }
   #work h1 {
     margin-left: 7%;
   }
@@ -365,7 +364,7 @@ Medium devices (640px and larger)
     height: 363px;
     position: absolute;
     align-content: space-between;
-    top: 77.5%;
+    top: 81.5%;
     left: 34.6%;
   }
   #work .vertical2 {
@@ -373,7 +372,7 @@ Medium devices (640px and larger)
     height: 363px;
     position: absolute;
     align-content: space-between;
-    top: 77.5%;
+    top: 81.5%;
     left: 65%;
 }
 #about p {
@@ -381,7 +380,7 @@ Medium devices (640px and larger)
   font-size: 13px;
   text-align: center;
   padding-top: 48px;
-  padding-right: 17px;
+  padding-right: 35px;
   line-height: 1.6em;
 }
 
@@ -390,15 +389,20 @@ Medium devices (640px and larger)
   height: 150px;
   position: absolute;
   align-content: space-between;
-  top: 146%;
+  top: 153%;
   left: 46%;
 }
+#about span {
+  display: block;
+}
   .button {
-    margin: 0px;
+    align-items: center;
     display: inline-block;
     background-color: transparent;
     color: #c7baa9;
     text-align: center;
+    margin-top: 15px;
+    margin-right: 22px;
     border: 1px solid #c7baa9;
     border-radius: 18px;
     width: 45%;
