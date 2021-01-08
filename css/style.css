@@ -361,7 +361,7 @@ Medium devices (640px and larger)
     vertical-align: text-top;
   }
   #work .vertical {
-    border: 1px solid rgba(59, 60, 59, 0.7);
+    border: 1px solid #c7baa9;
     height: 363px;
     position: absolute;
     align-content: space-between;
@@ -369,22 +369,39 @@ Medium devices (640px and larger)
     left: 34.6%;
   }
   #work .vertical2 {
-    border: 1px solid rgba(59, 60, 59, 0.7);
+    border: 1px solid #c7baa9;
     height: 363px;
     position: absolute;
     align-content: space-between;
     top: 77.5%;
     left: 65%;
 }
+#about p {
+  float: right;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 48px;
+  padding-right: 17px;
+  line-height: 1.6em;
+}
+
+#about .vertical {
+  border: 1px solid rgba(59, 60, 59, 0.7);
+  height: 150px;
+  position: absolute;
+  align-content: space-between;
+  top: 146%;
+  left: 46%;
+}
   .button {
+    margin: 0px;
     display: inline-block;
     background-color: transparent;
     color: #c7baa9;
     text-align: center;
-    padding: 6px;
     border: 1px solid #c7baa9;
     border-radius: 18px;
-    width: 42%;
+    width: 45%;
   }
 
   .button:hover {
