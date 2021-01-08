@@ -358,10 +358,11 @@ Medium devices (640px and larger)
   }
   .col-md-4 {
     display: inline-table;
+    vertical-align: text-top;
   }
   #work .vertical {
     border: 1px solid rgba(59, 60, 59, 0.7);
-    height: 400px;
+    height: 363px;
     position: absolute;
     align-content: space-between;
     top: 77.5%;
@@ -369,7 +370,7 @@ Medium devices (640px and larger)
   }
   #work .vertical2 {
     border: 1px solid rgba(59, 60, 59, 0.7);
-    height: 400px;
+    height: 363px;
     position: absolute;
     align-content: space-between;
     top: 77.5%;
@@ -383,7 +384,7 @@ Medium devices (640px and larger)
     padding: 6px;
     border: 1px solid #c7baa9;
     border-radius: 18px;
-    width: 30%;
+    width: 42%;
   }
 
   .button:hover {
