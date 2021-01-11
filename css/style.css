@@ -26,6 +26,7 @@ h1 {
   font-family: 'Source Serif Pro', serif;
   font-size: 1.5em;
   font-weight: 400;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
@@ -160,7 +161,8 @@ nav>ul>li>a {
 #portfolio {
   /* id selector */
   display: inline-block;
-  background-color: rgba(199, 186, 169, 0.05);
+  border-top: 1px solid #e6cecb;
+  border-bottom: 1px solid #e6cecb;
 }
 
 #pp {
