@@ -127,7 +127,7 @@ nav>ul>li>a {
   display: inline-block;
 }
 
-#work>h1 {
+#work h1 {
   display: inline-block;
   text-align: left;
   margin: 18px 14px 14px 14px;
@@ -249,16 +249,12 @@ a:active {
 }
 
 .button-contact>a {
-  display: block;
-  background-color: #e6cecb;
-  color: #ffffff;
-  text-align: center;
-  padding: 6px;
-  margin: 15px 0px 18px 0px;
-  border: 1px solid #e6cecb;
-  border-radius: 18px;
-  text-decoration: none;
-  width: 25%;
+  align-items: center;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #e6cecb;
+  margin: 0px;
 }
 
 .button-contact:hover {
@@ -287,7 +283,9 @@ Medium devices (640px and larger)
   .col-md-6 {
     float: left;
   }
-
+  main {
+    height: 1000px;
+  }
   body {
     font-size: 15px;
   }
@@ -315,9 +313,12 @@ Medium devices (640px and larger)
   #logo {
     padding: 0;
   }
+
   #hero {
-    padding-bottom: 20px;
+    margin: 0px;
+    padding-bottom: 25px;
   }
+
   #hero h2 {
     float: right;
     text-align: justify;
@@ -330,6 +331,7 @@ Medium devices (640px and larger)
   #hero span {
     display: block;
   }
+
   .vertical {
     border: 1px solid rgba(59, 60, 59, 0.7);
     height: 200px;
@@ -337,75 +339,126 @@ Medium devices (640px and larger)
     align-content: center;
     left: 55%;
   }
+
   #work {
-    margin: 20px 0px;
+    margin: 0px;
+    padding: 10px 0px 35px 0px;
   }
+
   #work h1 {
-    margin-left: 7%;
+    margin-top: 8px;
+    padding-left: 5%;
+    padding-bottom: 10px;
   }
+
   #work h4 {
     margin: 5px 0px;
   }
+
   #work p {
     margin-top: 8px;
     font-size: 12px;
     line-height: normal;
     text-align: center;
   }
+
   #work .row {
-  text-align: center;
+    text-align: center;
   }
+
   .col-md-4 {
     display: inline-table;
     vertical-align: text-top;
   }
+
   #work .vertical {
     border: 1px solid #c7baa9;
     height: 363px;
     position: absolute;
     align-content: space-between;
-    top: 81.5%;
+    top: 80.5%;
     left: 34.6%;
   }
+
   #work .vertical2 {
     border: 1px solid #c7baa9;
     height: 363px;
     position: absolute;
     align-content: space-between;
-    top: 81.5%;
+    top: 80.5%;
     left: 65%;
+  }
+#about {
+  padding: 10px 0px;
 }
-#about p {
-  float: right;
-  font-size: 13px;
-  text-align: center;
-  padding-top: 48px;
-  padding-right: 35px;
-  line-height: 1.6em;
-}
+  #about p {
+    float: right;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 48px;
+    padding-right: 35px;
+    line-height: 1.6em;
+  }
 
-#about .vertical {
-  border: 1px solid rgba(59, 60, 59, 0.7);
-  height: 150px;
-  position: absolute;
-  align-content: space-between;
-  top: 153%;
-  left: 46%;
-}
-#about span {
-  display: block;
-}
+  #about .vertical {
+    border: 1px solid rgba(59, 60, 59, 0.7);
+    height: 150px;
+    position: absolute;
+    align-content: space-between;
+    top: 153%;
+    left: 46%;
+  }
+
+  #about span {
+    display: block;
+  }
+
+  #contact {
+    margin-top: 28px;
+    padding-bottom: 5px;
+  }
+
+  #contact .col-md-6 {
+    display: block;
+    text-align: left;
+    padding-left: 12%;
+
+  }
+
+  #contact .container {
+    margin-top: 22px;
+    padding-left: 30px;
+    display: inline-table;
+    text-align: center;
+  }
+
+  #contact .row {
+    margin: 0px;
+    text-align: center;
+  }
+
+  #contact h4 {
+    margin-bottom: 1em;
+    letter-spacing: 1px;
+  }
+
+  #contact .copyright {
+    margin: 5px 24px 5px 24px;
+    font-size: 9px;
+    text-align: right;
+  }
+
   .button {
-    align-items: center;
     display: inline-block;
     background-color: transparent;
     color: #c7baa9;
-    text-align: center;
     margin-top: 15px;
     margin-right: 22px;
+    text-align: center;
+    align-items: center;
     border: 1px solid #c7baa9;
     border-radius: 18px;
-    width: 45%;
+    width: 50%;
   }
 
   .button:hover {
@@ -413,6 +466,16 @@ Medium devices (640px and larger)
     color: #ffffff;
     border: 1px solid #e6cecb;
     text-decoration: none;
+  }
+
+  .button-contact {
+    text-align: left;
+    display: block;
+  }
+
+  .button-social>a {
+    margin-right: .5em;
+    width: 12%;
   }
 }
 
