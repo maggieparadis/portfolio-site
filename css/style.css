@@ -63,6 +63,7 @@ picture {
 }
 
 /*layout styling*/
+
 header {
   background-color: rgba(199, 186, 169, 0.05);
   text-align: center;
@@ -157,14 +158,6 @@ nav>ul>li>a {
   padding: 0px 13px;
 }
 
-#meetmaggie {
-  background-color: rgba(199, 186, 169, 0.05);
-  margin: 0px 10px;
-  text-align: center;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #e6cecb;
-}
-
 #portfolio {
   /* id selector */
   display: inline-block;
@@ -192,7 +185,7 @@ nav>ul>li>a {
 
 #contact {
   background-color: rgba(199, 186, 169, 0.05);
-  padding-bottom: 14px;
+  padding: 14px 0px;
 }
 
 #contact .container>h4 {
@@ -208,8 +201,27 @@ nav>ul>li>a {
 
 #contact .container>div>p {
   display: block;
-  margin: 10px;
+  padding: 10px;
 }
+.copyright {
+  margin-left: 10px;
+  font-size: 8px;
+}
+
+/* about page layout styling */
+
+#meetmaggie {
+  background-color: rgba(199, 186, 169, 0.05);
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #e6cecb;
+}
+#meetmaggie .row {
+  padding: 0px 10px;
+  font-size: 12px;
+}
+
+
 
 /* links and buttons */
 a {
