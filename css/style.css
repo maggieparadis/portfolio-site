@@ -546,6 +546,10 @@ Medium devices (640px and larger)
   #portfolio h1 {
     padding-left: 12px;
   }
+  #pp .row {
+    display: block;
+    height: auto;
+  }
 }
 
 /* ==============================
