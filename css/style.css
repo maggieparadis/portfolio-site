@@ -535,6 +535,16 @@ Medium devices (640px and larger)
   #skills_tools span {
     display: block;
   }
+
+  #portfolio {
+    padding: 5px 5px;
+  }
+  #portfolio .col-md-6 {
+    padding: 10px;
+  }
+  #portfolio h1 {
+    padding-left: 12px;
+  }
 }
 
 /* ==============================
