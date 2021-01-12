@@ -21,7 +21,9 @@ body {
   /* Sets the line-height to 1.6 * the font-size */
   color: #545859;
 }
-
+footer {
+  background-color: rgba(199, 186, 169, 0.05);
+}
 h1 {
   font-family: 'Source Serif Pro', serif;
   font-size: 1.5em;
@@ -66,6 +68,7 @@ picture {
 /*layout styling*/
 
 header {
+  background-color: rgba(199, 186, 169, 0.05);
   text-align: center;
   position: relative;
   width: 100%;
@@ -177,7 +180,7 @@ nav>ul>li>a {
   display: inline-block;
   text-align: center;
   width: 100%;
-  padding: 2px 18px 18px 18px;
+  padding: 2px 20px 18px 20px;
   border-bottom: 1px solid #e6cecb;
 }
 
@@ -185,12 +188,9 @@ nav>ul>li>a {
   display: block;
   margin: 0;
 }
-
-#pp .row>picture {
-  display: block;
-  line-height: 0;
+#contact {
+  text-align: left;
 }
-
 #contact .container>h4 {
   display: inline-block;
   text-transform: uppercase;
@@ -537,6 +537,7 @@ Medium devices (640px and larger)
   }
 
   #portfolio {
+    background-color: rgba(199, 186, 169, 0.05);
     padding: 5px 5px;
   }
   #portfolio .col-md-6 {
