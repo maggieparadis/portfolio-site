@@ -375,7 +375,8 @@ Medium devices (640px and larger)
   .vertical {
     border: 1px solid rgba(59, 60, 59, 0.7);
     height: 200px;
-    position: absolute;
+    width: 1px;
+    position: relative;
     align-content: center;
     left: 55%;
   }
@@ -414,7 +415,8 @@ Medium devices (640px and larger)
   #work .vertical {
     border: 1px solid #c7baa9;
     height: 363px;
-    position: absolute;
+    width: 1px;
+    position: relative;
     align-content: space-between;
     top: 80.5%;
     left: 34.6%;
@@ -423,7 +425,8 @@ Medium devices (640px and larger)
   #work .vertical2 {
     border: 1px solid #c7baa9;
     height: 363px;
-    position: absolute;
+    width: 1px;
+    position: relative;
     align-content: space-between;
     top: 80.5%;
     left: 65%;
@@ -443,7 +446,8 @@ Medium devices (640px and larger)
   #about .vertical {
     border: 1px solid rgba(59, 60, 59, 0.7);
     height: 150px;
-    position: absolute;
+    width: 1px;
+    position: relative;
     align-content: space-between;
     top: 153%;
     left: 46%;
@@ -594,7 +598,66 @@ Medium devices (640px and larger)
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+  .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  header {
+    text-align: unset;
+    padding: 40px 28px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 40px;
+  }
+
+  nav>ul>li>a {
+    padding: 0 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #c1836c;
+  }
+
+  #logo {
+    padding: 0;
+  }
+
+  #hero {
+    margin: 0px;
+    padding-bottom: 25px;
+  }
+#hero img {
+  width: 70%;
+}
+  #hero h2 {
+    float: right;
+    text-align: justify;
+    padding-top: 60px;
+    padding-right: 17px;
+    letter-spacing: 2px;
+    line-height: 1.8em;
+  }
+
+  #hero span {
+    display: block;
+  }
+
+  .vertical {
+    border: 1px solid rgba(59, 60, 59, 0.7);
+    height: 260px;
+    width: 1px;
+    position: relative;
+    align-content: center;
+    left: 50%;
+  }
+}
 
 /* ==============================
 X-large devices (1440px or larger)
