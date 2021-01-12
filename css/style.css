@@ -21,8 +21,12 @@ body {
   /* Sets the line-height to 1.6 * the font-size */
   color: #545859;
 }
+main {
+  background-color: rgba(199, 186, 169, 0.05);
+}
 footer {
   background-color: rgba(199, 186, 169, 0.05);
+  padding: 10px;
 }
 h1 {
   font-family: 'Source Serif Pro', serif;
@@ -181,12 +185,20 @@ nav>ul>li>a {
   text-align: center;
   width: 100%;
   padding: 2px 20px 18px 20px;
+  line-height: 0px;
   border-bottom: 1px solid #e6cecb;
 }
 
 #pp .row {
   display: block;
   margin: 0;
+}
+#pp_grpahics {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 2px 20px 18px 20px;
+  border-bottom: 1px solid #e6cecb;
 }
 #contact {
   text-align: left;
