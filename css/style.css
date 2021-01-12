@@ -161,10 +161,18 @@ nav>ul>li>a {
 #portfolio {
   /* id selector */
   display: inline-block;
-  border-top: 1px solid #e6cecb;
   border-bottom: 1px solid #e6cecb;
 }
-
+#portfolio h4 {
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 5px 0px 20px 0px;
+}
+#portfolio p{
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 5px 0px 20px 0px;
+}
 #pp {
   display: inline-block;
   text-align: center;
