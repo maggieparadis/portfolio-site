@@ -197,6 +197,7 @@ nav>ul>li>a {
   text-align: center;
   padding: 2px 20px 18px 20px;
   border-bottom: 1px solid #e6cecb;
+  border-top: 1px solid #e6cecb;
 }
 #pp_graphics .row {
   display: block;
@@ -575,6 +576,9 @@ Medium devices (640px and larger)
     height: inherit;
     padding-bottom: 0px;
     line-height: 0px;
+  }
+  #pp_graphics {
+    border-top: 1px solid #e6cecb;
   }
   #pp_graphics p {
     display: inline-block;
