@@ -369,8 +369,8 @@ Medium devices (640px and larger)
   #hero h2 {
     float: right;
     text-align: justify;
-    padding-top: 60px;
-    padding-right: 30px;
+    padding-top: 8.8%;
+    padding-right: 4%;
     letter-spacing: 2px;
     line-height: 1.8em;
     display: inline-block;
@@ -381,7 +381,7 @@ Medium devices (640px and larger)
   }
 
   .vertical {
-    border: 1px solid rgba(59, 60, 59, 0.7);
+    border: 1px solid #c7baa9;
     height: 200px;
     width: 1px;
     margin-left: 15px;
@@ -458,7 +458,7 @@ Medium devices (640px and larger)
   }
 
   #about .vertical {
-    border: 1px solid rgba(59, 60, 59, 0.7);
+    border: 1px solid #c7baa9;
     height: 200px;
     width: 1px;
     margin: 20px 0px;
@@ -652,29 +652,65 @@ Large devices (1024px or larger)
 #hero img {
   width: 70%;
 }
-  #hero h2 {
-    float: right;
-    text-align: justify;
-    padding-top: 60px;
-    padding-right: 17px;
-    letter-spacing: 2px;
-    line-height: 1.8em;
-  }
+#hero h2 {
+  font-size: 1.45em;
+  padding-top: 8%;
+  padding-right: 10%;
+}
 
   #hero span {
     display: block;
   }
 
-  .vertical {
-    border: 1px solid rgba(59, 60, 59, 0.7);
-    height: 260px;
+  #hero .vertical {
+    border: 1px solid #c7baa9;
+    height: 250px;
     width: 1px;
     position: relative;
-    align-content: center;
-    left: 50%;
+    display: inline;
+    float: left;
+    margin-top: 15px;
+    left: 1%;
   }
-}
+  #work .vertical {
+    border: 1px solid #c7baa9;
+    height: 420px;
+    width: 1px;
+    position: relative;
+    display: inline;
+    float: left;
+    top: 80.5%;
+    left: 34%;
+  }
 
+  #work .vertical2 {
+    border: 1px solid #c7baa9;
+    height: 420px;
+    width: 1px;
+    position: relative;
+    display: inline;
+    float: left;
+    top: 80.5%;
+    left: 64%;
+}
+#about p {
+  float: right;
+  font-size: 13px;
+  text-align: center;
+  padding: 13% 10% 0% 2%;
+  line-height: 1.6em;
+}
+#about .vertical {
+  border: 1px solid #c7baa9;
+  height: 300px;
+  width: 1px;
+  position: relative;
+  display: inline;
+  float: left;
+  margin-top: 30px;
+  left: 1%;
+}
+}
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
