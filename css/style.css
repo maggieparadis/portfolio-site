@@ -548,7 +548,9 @@ Medium devices (640px and larger)
   }
   #pp .row {
     display: block;
-    height: auto;
+    height: inherit;
+    padding-bottom: 0px;
+    line-height: 0px;
   }
 }
 
