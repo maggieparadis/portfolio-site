@@ -741,10 +741,56 @@ Large devices (1024px or larger)
   width: 18%;
   float: right;
 }
-#contact,
+#contact h4 {
+  padding-bottom: 3%;
+  font-size: 1.4em;
+}
 #contact a {
   padding-bottom: 3%;
-  font-size: 1em;
+  font-size: 1.2em;
+}
+#portfolio h1,{
+  font-size: 1.8em;
+}
+#meetmaggie h1 {
+  font-size: 1.8em;
+  padding-top: 5%;
+}
+#portfolio h4, p {
+  font-size: 1.3em;
+}
+#meetmaggie p {
+  margin: 5% 10% 5% 5%;
+  padding: 0%;
+}
+#meetmaggie img {
+  width: 85%;
+}
+.lets_connect {
+  height: 30px;
+  width: 40%;
+  margin: 0px;
+}
+.lets_connect {
+  padding-left: 5%;
+  text-align: center;
+  display: inline-block;
+}
+#skills_tools h3 {
+  font-size: 1.6em;
+}
+#skills_tools p {
+  font-size: 1.25em;
+}
+#pp, #pp_graphics {
+  padding: 2px 40px 18px 40px;
+}
+#pp_graphics .row {
+  padding-bottom: 8px;
+}
+#pp_graphics p {
+  font-size: .8em;
+  line-height: 1.4em;
 }
 }
 /* ==============================
