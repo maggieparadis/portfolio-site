@@ -21,13 +21,17 @@ body {
   /* Sets the line-height to 1.6 * the font-size */
   color: #545859;
 }
+
 main {
   background-color: rgba(199, 186, 169, 0.05);
 }
+
 footer {
   background-color: rgba(199, 186, 169, 0.05);
-  padding: 10px;
+  height: auto;
+  padding-top: 10px;
 }
+
 h1 {
   font-family: 'Source Serif Pro', serif;
   font-size: 1.5em;
@@ -70,7 +74,6 @@ picture {
 }
 
 /*layout styling*/
-
 header {
   background-color: rgba(199, 186, 169, 0.05);
   text-align: center;
@@ -113,11 +116,6 @@ nav>ul>li>a {
   padding: 0 14px;
 }
 
-.row {
-  margin: 14px 0;
-  /* 25px top and bottom, 0 left and right */
-}
-
 #hero {
   /* id selector */
   display: inline-block;
@@ -131,6 +129,7 @@ nav>ul>li>a {
   display: block;
 }
 
+/* home page layout */
 #work {
   display: inline-block;
 }
@@ -159,28 +158,59 @@ nav>ul>li>a {
   width: 60%;
 }
 
-#about>p {
+#about p {
   display: inline-block;
   margin: 0px;
-  padding: 0px 13px;
+  padding: 10px 13px 20px 13px;
 }
 
+/* about page layout */
+#meetmaggie {
+  text-align: center;
+  padding: 5%;
+  font-size: 12px;
+  border-top: 1px solid #e6cecb;
+}
+
+#meetmaggie p {
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: justify;
+}
+
+#meetmaggie .lets_connect p {
+  text-align: center;
+}
+
+#skills_tools {
+  background-color: #e6cecb;
+  text-align: center;
+  padding: 10px 14px;
+  font-size: 12px;
+  border-bottom: 1px solid #e6cecb;
+}
+
+/* portfolio page layout */
 #portfolio {
   /* id selector */
   display: inline-block;
   border-top: 1px solid #e6cecb;
   border-bottom: 1px solid #e6cecb;
 }
+
 #portfolio h4 {
   display: inline-block;
   letter-spacing: 1px;
   margin: 5px 0px 20px 0px;
 }
-#portfolio p{
+
+#portfolio p {
   display: inline-block;
   letter-spacing: 1px;
   margin: 5px 0px 20px 0px;
 }
+
+/* independent project page layouts pp=ui/ux pp_graphics=graphic design */
 #pp {
   line-height: 0px;
   padding: 4% 10%;
@@ -192,70 +222,73 @@ nav>ul>li>a {
   display: block;
   margin: 0;
 }
+
 #pp_graphics {
   text-align: center;
   padding: 4% 10%;
   border-bottom: 1px solid #e6cecb;
   border-top: 1px solid #e6cecb;
 }
+
 #pp h1, #pp_graphics h1 {
   text-align: center;
   font-size: 14px;
 }
+
 #pp p, #pp_graphics p {
-  display: inline-block;
   margin: 0px;
   line-height: 1.3em;
   letter-spacing: .5px;
   font-size: 10px;
+}
+
+#pp p {
+  padding: 1% 15% 3% 15%;
+  text-align: center;
+}
+
+#pp_graphics p {
+  padding: 0% 2% 3% 2%;
   text-align: justify;
 }
-#pp p {
-padding: 0% 10% 3% 16%;  
-}
-#pp_graphics p {
-padding: 0% 2% 3% 2%;
-}
+
 #pp span {
-display: block;
+  display: block;
 }
+
+/* footer layout */
 #contact {
   text-align: left;
 }
-#contact .container>h4 {
-  display: inline-block;
+
+#contact .col-md-6 {
+  padding-left: 8%;
+}
+
+#contact h4 {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-#contact .container>h5 {
-  display: block;
-  margin: 0px;
+#contact h5 {
+  color: #e6cecb;
+  text-decoration: none;
+  text-transform: none;
+  margin-top: 2%;
 }
 
-#contact .container>div>p {
-  display: block;
-  padding: 10px;
-}
-.copyright {
-  margin-left: 10px;
+#copyright {
+  background-color: #e6cecb;
+  padding: 2px;
   font-size: 8px;
+  text-align: right;
 }
 
-/* about page layout styling */
+#copyright p {
+  padding-right: 3%;
+  letter-spacing: 5%;
+}
 
-#meetmaggie {
-  text-align: center;
-  padding: 10px;
-  font-size: 12px;
-}
-#skills_tools {
-background-color: #e6cecb;
-text-align: center;
-padding: 10px 14px;
-font-size: 12px;
-border-bottom: 1px solid #e6cecb;
-}
 /* links and buttons */
 a {
   color: #545859;
@@ -329,10 +362,12 @@ Medium devices (640px and larger)
   .col-md-6 {
     float: left;
   }
+
   main {
     background-color: rgba(199, 186, 169, 0.05);
     height: auto;
   }
+
   body {
     font-size: 15px;
   }
@@ -361,24 +396,26 @@ Medium devices (640px and larger)
     padding-left: 3%;
   }
 
+  /* home page layout */
   #hero {
     margin: 0px;
     padding-bottom: 25px;
   }
+
   #hero .container,
   #hero .col-md-6 {
-  display: inline-block;
+    display: inline-block;
   }
-#hero img {
-  width: 85%;
-  padding-left: 5%;
-}
+
+  #hero img {
+    width: 85%;
+    padding-left: 5%;
+  }
 
   #hero h2 {
     float: right;
     text-align: justify;
     padding: 14% 9% 0% 9%;
-
     letter-spacing: 2px;
     line-height: 1.8em;
     display: inline-block;
@@ -451,12 +488,15 @@ Medium devices (640px and larger)
     top: 80.5%;
     left: 64%;
   }
-#about {
-  padding: 10px 0px;
-}
-#about .col-md-6 {
-  display: inline-block;
-}
+
+  #about {
+    padding: 10px 0px;
+  }
+
+  #about .col-md-6 {
+    display: inline-block;
+  }
+
   #about p {
     float: right;
     font-size: 13px;
@@ -480,27 +520,84 @@ Medium devices (640px and larger)
     display: block;
   }
 
+  /* about page layout */
+  #meetmaggie {
+    display: inline-block;
+    padding: 3%;
+    height: auto;
+    border-top: 1px solid #e6cecb;
+    border-bottom: none
+  }
+
+  #meetmaggie h1 {
+    margin-top: 8px;
+    letter-spacing: 1px;
+  }
+
+  #meetmaggie p {
+    padding: 2% 6% 0% 8%;
+    font-kerning: auto;
+    letter-spacing: .25px;
+    text-align: justify;
+  }
+
+  #skills_tools {
+    background-color: #e6cecb;
+    height: auto;
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #e6cecb;
+  }
+
+  #skills_tools h3 {
+    margin-bottom: 25px;
+  }
+
+  #skills_tools p {
+    font-size: 11px;
+    line-height: 1.87em;
+  }
+
+  #skills_tools span {
+    display: block;
+  }
+
+  /* portfolio page layout */
+  #portfolio {
+    background-color: rgba(199, 186, 169, 0.05);
+    padding: 1% 1%;
+  }
+
+  #portfolio .col-md-6 {
+    padding: 10px;
+  }
+
+  #portfolio h1 {
+    padding-left: 12px;
+  }
+
+  /* independent project page layouts pp=ui/ux pp_graphics=graphic design */
+  #pp h1,
+  #pp_graphics h1 {
+    font-size: 1.2em;
+    margin-top: 3%;
+  }
+
+  #pp p,
+  #pp_graphics p {
+    font-size: .75em;
+    line-height: 1.5em;
+  }
+
+  /* footer layout */
   #contact {
-    padding-bottom: 5px;
+    display: block;
   }
 
   #contact .col-md-6 {
-    display: block;
     text-align: left;
-    padding-left: 12%;
-
-  }
-
-  #contact .container {
-    margin-top: 22px;
-    padding-left: 30px;
-    display: inline-table;
-    text-align: center;
-  }
-
-  #contact .row {
-    margin: 0px;
-    text-align: center;
   }
 
   #contact h4 {
@@ -508,12 +605,16 @@ Medium devices (640px and larger)
     letter-spacing: 1px;
   }
 
-  #contact .copyright {
-    margin: 5px 24px 5px 24px;
-    font-size: 9px;
-    text-align: right;
-  }
-
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#copyright p {
+  margin: 0px;
+  padding: 1% 2%;
+}
+  /* buttons */
   .button {
     display: inline-block;
     background-color: transparent;
@@ -544,90 +645,6 @@ Medium devices (640px and larger)
     margin-right: .5em;
     width: 12%;
   }
-#meetmaggie {
-  display: inline-block;
-  padding: 12px 20px;
-  height: auto;
-  border-top: 1px solid #e6cecb;
-  border-bottom: none
-}
-  #meetmaggie h1 {
-    margin-top: 8px;
-    letter-spacing: 1px;
-  }
-  #meetmaggie p {
-    padding: 10px 10px 0px 20px;
-    font-kerning: auto;
-    letter-spacing: .25px;
-    text-align: justify;
-  }
-  .lets_connect {
-    text-align: center;
-  }
-  #meetmaggie .container {
-    display: block;
-    height: auto;
-    padding-bottom: 25px;
-  }
-  #skills_tools {
-    background-color: #e6cecb;
-    height: auto;
-    text-align: center;
-    padding: 20px 40px;
-    font-size: 12px;
-    letter-spacing: 1px;
-    border-bottom: 1px solid #e6cecb;
-  }
-  #skills_tools h3 {
-    margin-bottom: 25px;
-  }
-  #skills_tools p {
-    font-size: 11px;
-    line-height: 1.87em;
-  }
-  #skills_tools span {
-    display: block;
-  }
-
-  #portfolio {
-    background-color: rgba(199, 186, 169, 0.05);
-    padding: 1% 1%;
-  }
-  #portfolio .col-md-6 {
-    padding: 10px;
-  }
-  #portfolio h1 {
-    padding-left: 12px;
-  }
-  #pp,
-  #pp_graphics {
-    border-top: 1px solid #e6cecb;
-  }
-  #pp img,
-  #pp_graphics img {
-    width: 55%
-  }
-  #pp .row {
-    display: block;
-    height: inherit;
-    padding-bottom: 0px;
-    line-height: 0px;
-  }
-  #pp h1,
-  #pp_graphics h1 {
-    font-size: 1.2em;
-    margin-top: 3%;
-  }
-  #pp p,
-  #pp_graphics p {
-    display: inline-block;
-    margin: 0px;
-    line-height: 1.3em;
-    letter-spacing: .5px;
-    font-size: 10px;
-    text-align: justify;
-    padding: 0% 22% 3% 22%;
-  }
 }
 
 /* ==============================
@@ -635,10 +652,10 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   .container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   header {
     text-align: unset;
@@ -654,13 +671,14 @@ Large devices (1024px or larger)
   nav>ul>li>a {
     padding: 0 18px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 400;
     color: #c1836c;
   }
 
   #logo {
+    width: 15%;
     padding: 0;
   }
 
@@ -668,14 +686,16 @@ Large devices (1024px or larger)
     margin: 0px;
     padding-bottom: 25px;
   }
-#hero img {
-  width: 70%;
-}
-#hero h2 {
-  font-size: 1.75em;
-  padding-top: 6%;
-  padding-right: 10%;
-}
+
+  #hero img {
+    width: 70%;
+  }
+
+  #hero h2 {
+    font-size: 1.75em;
+    padding-top: 6%;
+    padding-right: 10%;
+  }
 
   #hero span {
     display: block;
@@ -691,141 +711,185 @@ Large devices (1024px or larger)
     margin-top: 15px;
     left: 1%;
   }
+
   #work {
     padding: 3%;
   }
-#work h1 {
-  padding-left: 7%;
-  padding-bottom: 2%;
-}
-#work h4 {
-  font-size: 1.2em;
+
+  #work h1 {
+    padding-left: 7%;
+    padding-bottom: 2%;
+  }
+
+  #work h4 {
+    font-size: 1.2em;
+  }
+
+  #work p {
+    font-size: 1.05em;
+    padding: 5% 5%;
+    line-height: 1.3em;
+    text-align: justify;
+  }
+
+  #work img {
+    padding: 0% 9% 8% 7%;
+  }
+
+  #work .vertical {
+    border: 1px solid #c7baa9;
+    height: 520px;
+    width: 1px;
+    margin: 0px;
+    position: relative;
+    display: inline;
+    float: left;
+    top: 78%;
+    left: 35%;
+  }
+
+  #work .vertical2 {
+    border: 1px solid #c7baa9;
+    height: 520px;
+    width: 1px;
+    position: relative;
+    display: inline;
+    float: left;
+    top: 78%;
+    left: 65%;
+  }
+
+  #about p {
+    float: right;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10% 7% 0% 5%;
+    line-height: 1.6em;
+  }
+
+  #about .vertical {
+    border: 1px solid #c7baa9;
+    height: 300px;
+    width: 1px;
+    position: relative;
+    display: inline;
+    float: left;
+    margin-top: 30px;
+    left: 1%;
+  }
+
+  #portfolio h1 {
+    font-size: 1.8em;
+  }
+
+  #meetmaggie {
+    padding: 1% 10%;
+  }
+
+  #meetmaggie img {
+    padding-top: 2%;
+    width: 90%;
+  }
+
+  #meetmaggie h1 {
+    font-size: 2em;
+    margin-top: 8%;
+    padding-left: 15%;
+  }
+
+  #meetmaggie p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 5%;
+  }
+
+  #meetmaggie .lets_connect p {
+    text-align: center;
+  }
+
+  #skills_tools h3 {
+    font-size: 1.6em;
+  }
+
+  #skills_tools p {
+    font-size: 1.25em;
+  }
+
+  #portfolio {
+    padding: 2% 2%;
+    width: 100%;
+  }
+
+  #portfolio .col-md-6 {
+    padding: 2% 2%;
+  }
+
+  #portfolio h1 {
+    font-size: 1.6em;
+    padding-left: 2.3%;
+  }
+
+  #pp, #pp_graphics {
+    padding: 3% 20%;
+  }
+
+  #pp_graphics .row {
+    padding-bottom: 8px;
+  }
+
+  #pp h1,
+  #pp_graphics h1 {
+    font-size: 1.7em;
+  }
+
+  #pp p,
+  #pp_graphics p {
+    font-size: 1em;
+  }
+
+  #contact h4 {
+    padding-bottom: 3%;
+    font-size: 1.4em;
+  }
+
+  #contact a {
+    padding-bottom: 3%;
+    font-size: 1.2em;
+  }
+
+  #contact h5 {
+    margin-top: 2%;
+    padding-bottom: 3%;
+    float: left;
+    font-size: 1em;
+    color: #e6cecb;
+    text-decoration: none;
+    text-transform: none;
+  }
+
+  .button {
+    display: inline-block;
+    background-color: transparent;
+    color: #c7baa9;
+    margin-top: 25px;
+    margin-right: 15%;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #c7baa9;
+    border-radius: 18px;
+    width: 18%;
+    float: right;
+  }
+
+  .button-social>a {
+    margin-left: 1px;
+    margin-right: 3%;
+    width: 7%;
+  }
 }
 
-#work p {
-  font-size: 1.05em;
-  padding: 5% 5%;
-  line-height: 1.3em;
-  text-align: justify;
-}
-#work img {
-  padding: 0% 9% 8% 7%;
-}
-#work .vertical {
-  border: 1px solid #c7baa9;
-  height: 520px;
-  width: 1px;
-  margin: 0px;
-  position: relative;
-  display: inline;
-  float: left;
-  top: 78%;
-  left: 35%;
-}
-
-#work .vertical2 {
-  border: 1px solid #c7baa9;
-  height: 520px;
-  width: 1px;
-  position: relative;
-  display: inline;
-  float: left;
-  top: 78%;
-  left: 65%;
-}
-#about p {
-  float: right;
-  font-size: 1.2em;
-  text-align: center;
-  padding: 10% 7% 0% 5%;
-  line-height: 1.6em;
-}
-#about .vertical {
-  border: 1px solid #c7baa9;
-  height: 300px;
-  width: 1px;
-  position: relative;
-  display: inline;
-  float: left;
-  margin-top: 30px;
-  left: 1%;
-}
-.button {
-  display: inline-block;
-  background-color: transparent;
-  color: #c7baa9;
-  margin-top: 25px;
-  margin-right: 15%;
-  text-align: center;
-  align-items: center;
-  border: 1px solid #c7baa9;
-  border-radius: 18px;
-  width: 18%;
-  float: right;
-}
-#contact h4 {
-  padding-bottom: 3%;
-  font-size: 1.4em;
-}
-#contact a {
-  padding-bottom: 3%;
-  font-size: 1.2em;
-}
-#portfolio h1,{
-  font-size: 1.8em;
-}
-#meetmaggie h1 {
-  font-size: 1.8em;
-  padding-top: 5%;
-}
-#portfolio h4, p {
-  font-size: 1.3em;
-}
-#meetmaggie p {
-  margin: 5% 10% 5% 5%;
-  padding: 0%;
-}
-#meetmaggie img {
-  width: 85%;
-}
-.lets_connect {
-  height: 30px;
-  width: 40%;
-  margin: 0px;
-}
-.lets_connect {
-  padding-left: 5%;
-  text-align: center;
-  display: inline-block;
-}
-#skills_tools h3 {
-  font-size: 1.6em;
-}
-#skills_tools p {
-  font-size: 1.25em;
-}
-#portfolio {
-  padding: 2% 2%;
-  width: 100%;
-}
-#portfolio .col-md-6 {
-  padding: 2% 2%;
-}
-#portfolio h1 {
-  font-size: 1.6em;
-  padding-left: 2.3%;
-}
-#pp, #pp_graphics {
-  padding: 2px 40px 18px 40px;
-}
-#pp_graphics .row {
-  padding-bottom: 8px;
-}
-#pp_graphics p {
-  font-size: .8em;
-  line-height: 1.4em;
-}
-}
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
