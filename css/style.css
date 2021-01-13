@@ -168,6 +168,7 @@ nav>ul>li>a {
 #portfolio {
   /* id selector */
   display: inline-block;
+  border-top: 1px solid #e6cecb;
   border-bottom: 1px solid #e6cecb;
 }
 #portfolio h4 {
@@ -181,38 +182,43 @@ nav>ul>li>a {
   margin: 5px 0px 20px 0px;
 }
 #pp {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  padding: 2px 20px 18px 20px;
   line-height: 0px;
+  padding: 4% 10%;
+  border-top: 1px solid #e6cecb;
   border-bottom: 1px solid #e6cecb;
 }
 
-#pp .row {
+#pp .row, #pp_graphics .row {
   display: block;
   margin: 0;
 }
 #pp_graphics {
   text-align: center;
-  padding: 2px 20px 18px 20px;
+  padding: 4% 10%;
   border-bottom: 1px solid #e6cecb;
   border-top: 1px solid #e6cecb;
 }
-#pp_graphics .row {
-  display: block;
-  margin: 0;
+#pp h1, #pp_graphics h1 {
+  text-align: center;
+  font-size: 14px;
 }
-#pp_graphics p {
+#pp p, #pp_graphics p {
   display: inline-block;
   margin: 0px;
   line-height: 1.3em;
   letter-spacing: .5px;
-  font-size: 12px;
+  font-size: 10px;
   text-align: justify;
-  padding: 0px 0px 15px 0px;
 }
-
+#pp p {
+padding: 0% 10% 3% 16%;  
+}
+#pp_graphics p {
+padding: 0% 2% 3% 2%;
+}
+#pp span {
+display: block;
+}
 #contact {
   text-align: left;
 }
@@ -278,6 +284,7 @@ a:active {
   border: 1px solid #c7baa9;
   border-radius: 18px;
   width: 48%;
+  transition: 0.2s opacity;
 }
 
 .button:hover {
@@ -332,13 +339,13 @@ Medium devices (640px and larger)
 
   header {
     text-align: unset;
-    padding: 24px 18px;
+    padding: 3% 0% 3% 3%;
   }
 
   nav {
-    width: auto;
+    width: 65%;
     float: right;
-    margin-top: 10px;
+    margin-top: 5%;
   }
 
   nav>ul>li>a {
@@ -351,7 +358,7 @@ Medium devices (640px and larger)
   }
 
   #logo {
-    padding: 0;
+    padding-left: 3%;
   }
 
   #hero {
@@ -363,14 +370,15 @@ Medium devices (640px and larger)
   display: inline-block;
   }
 #hero img {
-  width: 90%;
+  width: 85%;
+  padding-left: 5%;
 }
 
   #hero h2 {
     float: right;
     text-align: justify;
-    padding-top: 8.8%;
-    padding-right: 4%;
+    padding: 14% 9% 0% 9%;
+
     letter-spacing: 2px;
     line-height: 1.8em;
     display: inline-block;
@@ -382,9 +390,9 @@ Medium devices (640px and larger)
 
   .vertical {
     border: 1px solid #c7baa9;
-    height: 200px;
-    width: 1px;
+    height: 11em;
     margin-left: 15px;
+    margin-top: 2%;
     display: inline;
     position: relative;
     align-content: center;
@@ -583,7 +591,7 @@ Medium devices (640px and larger)
 
   #portfolio {
     background-color: rgba(199, 186, 169, 0.05);
-    padding: 5px 5px;
+    padding: 1% 1%;
   }
   #portfolio .col-md-6 {
     padding: 10px;
@@ -591,23 +599,34 @@ Medium devices (640px and larger)
   #portfolio h1 {
     padding-left: 12px;
   }
+  #pp,
+  #pp_graphics {
+    border-top: 1px solid #e6cecb;
+  }
+  #pp img,
+  #pp_graphics img {
+    width: 55%
+  }
   #pp .row {
     display: block;
     height: inherit;
     padding-bottom: 0px;
     line-height: 0px;
   }
-  #pp_graphics {
-    border-top: 1px solid #e6cecb;
+  #pp h1,
+  #pp_graphics h1 {
+    font-size: 1.2em;
+    margin-top: 3%;
   }
+  #pp p,
   #pp_graphics p {
     display: inline-block;
     margin: 0px;
     line-height: 1.3em;
     letter-spacing: .5px;
-    font-size: 12px;
+    font-size: 10px;
     text-align: justify;
-    padding: 0px 40px 15px 40px;
+    padding: 0% 22% 3% 22%;
   }
 }
 
@@ -623,7 +642,7 @@ Large devices (1024px or larger)
 
   header {
     text-align: unset;
-    padding: 40px 28px;
+    padding: 3% 4%;
   }
 
   nav {
@@ -653,8 +672,8 @@ Large devices (1024px or larger)
   width: 70%;
 }
 #hero h2 {
-  font-size: 1.45em;
-  padding-top: 8%;
+  font-size: 1.75em;
+  padding-top: 6%;
   padding-right: 10%;
 }
 
@@ -672,10 +691,12 @@ Large devices (1024px or larger)
     margin-top: 15px;
     left: 1%;
   }
+  #work {
+    padding: 3%;
+  }
 #work h1 {
-  margin-top: 25px;
-  padding-left: 5%;
-  padding-bottom: 15px;
+  padding-left: 7%;
+  padding-bottom: 2%;
 }
 #work h4 {
   font-size: 1.2em;
@@ -688,17 +709,18 @@ Large devices (1024px or larger)
   text-align: justify;
 }
 #work img {
-  padding: 0% 4% 8% 0%;
+  padding: 0% 9% 8% 7%;
 }
 #work .vertical {
   border: 1px solid #c7baa9;
   height: 520px;
   width: 1px;
+  margin: 0px;
   position: relative;
   display: inline;
   float: left;
-  top: 80.5%;
-  left: 34%;
+  top: 78%;
+  left: 35%;
 }
 
 #work .vertical2 {
@@ -708,8 +730,8 @@ Large devices (1024px or larger)
   position: relative;
   display: inline;
   float: left;
-  top: 80.5%;
-  left: 64%;
+  top: 78%;
+  left: 65%;
 }
 #about p {
   float: right;
@@ -781,6 +803,17 @@ Large devices (1024px or larger)
 }
 #skills_tools p {
   font-size: 1.25em;
+}
+#portfolio {
+  padding: 2% 2%;
+  width: 100%;
+}
+#portfolio .col-md-6 {
+  padding: 2% 2%;
+}
+#portfolio h1 {
+  font-size: 1.6em;
+  padding-left: 2.3%;
 }
 #pp, #pp_graphics {
   padding: 2px 40px 18px 40px;
