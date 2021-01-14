@@ -401,15 +401,11 @@ Medium devices (640px and larger)
 
   /* home page layout */
   #hero {
-    margin: 0px;
-    padding-bottom: 7px;
-  }
-
-  #hero .container,
-  #hero .col-md-6 {
-    display: inline-block;
-  }
-
+  padding-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+  object-fit: contain;
+}
   #hero img {
     width: 85%;
     padding-left: 5%;
