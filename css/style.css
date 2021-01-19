@@ -197,8 +197,12 @@ nav>ul>li>a {
   text-align: justify;
 }
 
-#meetmaggie .lets_connect p {
+#meetmaggie .lets_connect h4 {
   text-align: center;
+  text-transform: uppercase;
+  margin-top: 8%;
+  color: #e6cecb;
+  word-spacing: .03em;
 }
 
 #skills_tools {
@@ -554,6 +558,11 @@ Medium devices (640px and larger)
     text-align: justify;
   }
 
+  #meetmaggie .lets_connect h4 {
+    margin-top: 5%;
+    word-spacing: .05em;
+  }
+
   #skills_tools {
     background-color: #e6cecb;
     height: auto;
@@ -598,6 +607,7 @@ Medium devices (640px and larger)
   #pp_graphics .container {
     margin-top: 95px;
   }
+
   #pp h1,
   #pp_graphics h1 {
     font-size: 1.2em;
@@ -678,28 +688,54 @@ Large devices (1024px or larger)
   }
 
   header {
-    text-align: unset;
-    padding: 3% 4%;
-  }
-
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 35px;
-  }
-
-  nav>ul>li>a {
-    padding: 0 30px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 400;
-    color: #c1836c;
+    background-color: #f9f7f6;
+    padding: 10px 20px;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #e6cecb;
   }
 
   #logo {
-    width: 15%;
-    padding: 0;
+    border-bottom: none;
+    display: inline-block;
+    padding-bottom: 5px;
+    width: auto;
+  }
+
+  .logo {
+    margin-top: 8%;
+    margin-left: 18%;
+    width: 170px;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  nav {
+    display: inline-block;
+    width: 45%;
+    float: right;
+    margin-top: .75%;
+  }
+
+  nav>ul {
+    margin: 2.5em 0 1.2em 0;
+    padding: 0px;
+  }
+
+  nav>ul>li>a {
+    padding-right: 3em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #c1836c;
   }
 
   /* home page layout */
@@ -779,30 +815,41 @@ Large devices (1024px or larger)
   }
 
   #meetmaggie {
-    padding: 1% 10%;
+    display: inline-block;
+    padding: 3%;
+    margin-top: 22px;
+    height: auto;
+    border-top: 1px solid #e6cecb;
+    border-bottom: none
   }
 
   #meetmaggie img {
     padding-top: 2%;
-    width: 90%;
+    width: 80%;
   }
 
   #meetmaggie h1 {
     font-size: 2em;
-    margin-top: 8%;
-    padding-left: 15%;
+    margin-top: 10%;
+    padding-left: 2%;
   }
 
   #meetmaggie p {
     font-size: 1.2em;
     line-height: 1.8em;
-    padding-top: 5%;
-    padding-left: 15%;
-    padding-right: 5%;
+    padding-top: 8%;
+    padding-left: 8%;
+    padding-right: 15%;
   }
 
-  #meetmaggie .lets_connect p {
+  #meetmaggie .lets_connect h4 {
     text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding-right: 8%;
+    margin-top: 10%;
+    color: #e6cecb;
+    word-spacing: .15em;
   }
 
   #skills_tools h3 {
@@ -814,7 +861,7 @@ Large devices (1024px or larger)
   }
 
   #portfolio {
-    padding: 2% 2%;
+    padding: 1% 2%;
     width: 100%;
   }
 
@@ -828,7 +875,7 @@ Large devices (1024px or larger)
   }
 
   #pp, #pp_graphics {
-    padding: 3% 20%;
+    padding: 5% 20%;
   }
 
   #pp_graphics .row {
@@ -838,11 +885,16 @@ Large devices (1024px or larger)
   #pp h1,
   #pp_graphics h1 {
     font-size: 1.7em;
+    letter-spacing: .25em;
+    word-spacing: .25em;
+    color: #c7baa9;
   }
 
   #pp p,
   #pp_graphics p {
     font-size: 1em;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
   }
 
   #contact h4 {
