@@ -80,42 +80,50 @@ header {
   position: fixed;
   width: 100%;
 }
+
 #logo {
   background-color: #f9f7f6;
   padding: 6px 14px;
   width: 100%;
   border-bottom: 1px solid #e6cecb;
 }
+
 .logo {
   margin: 15px 0px 6px 10px;
   /* Adds 10px top, 5px right, 15px bottom, 5px left */
   width: 30%;
 }
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
+
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
+
 .navtoggle li .icon {
   position: fixed;
-  left: 260px;
-  top: 4%;
+  left: 80%;
+  top: 4.5%;
   font-size: 20px;
 }
+
 .navtoggle.responsive nav {
   padding: 24px 0px 0px;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
   border-bottom: 1px solid #e6cecb;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 20px 10px;
   border-bottom: none;
 }
+
 nav>ul {
   background-color: #f9f7f6;
   list-style-type: none;
@@ -138,7 +146,6 @@ nav>ul>li>a {
 }
 
 /* home page layout */
-
 #hero,
 #work {
   /* id selector */
@@ -206,7 +213,6 @@ nav>ul>li>a {
 #portfolio {
   /* id selector */
   display: inline-block;
-  border-top: 1px solid #e6cecb;
   border-bottom: 1px solid #e6cecb;
 }
 
@@ -226,7 +232,6 @@ nav>ul>li>a {
 #pp {
   line-height: 0px;
   padding: 4% 10%;
-  border-top: 1px solid #e6cecb;
   border-bottom: 1px solid #e6cecb;
 }
 
@@ -239,7 +244,6 @@ nav>ul>li>a {
   text-align: center;
   padding: 4% 10%;
   border-bottom: 1px solid #e6cecb;
-  border-top: 1px solid #e6cecb;
 }
 
 #pp h1, #pp_graphics h1 {
@@ -385,26 +389,47 @@ Medium devices (640px and larger)
   }
 
   header {
-    text-align: unset;
-    padding: 3% 0% 3% 3%;
+    background-color: #f9f7f6;
+    padding: 6px 14px;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #e6cecb;
   }
+
+  #logo {
+    border-bottom: none;
+    display: inline-block;
+    padding: 0px;
+    width: auto;
+  }
+
+  .logo {
+    margin-top: 8%;
+    width: 150px;
+  }
+
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
+
   .navtoggle li:last-child {
     display: none;
   }
+
   nav {
-    width: 65%;
-    float: right;
-    margin-top: 5%;
-  }
-  nav > ul {
-    margin: 1em 0;
-  }
-  nav>ul>li>a {
     display: inline-block;
-    padding: 0 18px;
+    width: 57%;
+    float: right;
+    margin-top: 0%;
+  }
+
+  nav>ul {
+    margin: 2.5em 0 1.2em 0;
+    padding: 0px;
+  }
+
+  nav>ul>li>a {
+    padding-right: 1em;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     text-transform: uppercase;
@@ -412,12 +437,10 @@ Medium devices (640px and larger)
     color: #c1836c;
   }
 
-  #logo {
-    padding-left: 3%;
-    min-width: 641px;
-  }
-
   /* home page layout */
+  #hero {
+    width: 100%;
+  }
 
   #work {
     margin: 0px;
@@ -500,7 +523,7 @@ Medium devices (640px and larger)
     left: 48%;
     margin-top: 4%;
     display: inline;
-    position:absolute;
+    position: absolute;
     align-content: center;
     float: left;
   }
@@ -513,6 +536,7 @@ Medium devices (640px and larger)
   #meetmaggie {
     display: inline-block;
     padding: 3%;
+    margin-top: 22px;
     height: auto;
     border-top: 1px solid #e6cecb;
     border-bottom: none
@@ -524,7 +548,7 @@ Medium devices (640px and larger)
   }
 
   #meetmaggie p {
-    padding: 2% 6% 0% 8%;
+    padding: 1.5% 6% 0% 8%;
     font-kerning: auto;
     letter-spacing: .25px;
     text-align: justify;
@@ -556,22 +580,27 @@ Medium devices (640px and larger)
   /* portfolio page layout */
   #portfolio {
     background-color: #f9f7f6;
-    padding: 1% 1%;
+    margin-top: 92px;
   }
 
   #portfolio .col-md-6 {
-    padding: 10px;
+    padding: 3%;
   }
 
   #portfolio h1 {
-    padding-left: 12px;
+    padding-top: 3.5%;
+    padding-left: 3%;
+    margin: 0;
   }
 
   /* independent project page layouts pp=ui/ux pp_graphics=graphic design */
+  #pp .container,
+  #pp_graphics .container {
+    margin-top: 95px;
+  }
   #pp h1,
   #pp_graphics h1 {
     font-size: 1.2em;
-    margin-top: 3%;
   }
 
   #pp p,
@@ -594,15 +623,17 @@ Medium devices (640px and larger)
     letter-spacing: 1px;
   }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-#copyright p {
-  margin: 0px;
-  padding: 1% 2%;
-}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #copyright p {
+    margin: 0px;
+    padding: 1% 2%;
+  }
+
   /* buttons */
   .button {
     display: inline-block;
@@ -671,8 +702,7 @@ Large devices (1024px or larger)
     padding: 0;
   }
 
-/* home page layout */
-
+  /* home page layout */
   #work {
     padding: 3%;
   }
@@ -720,9 +750,11 @@ Large devices (1024px or larger)
     top: 78%;
     left: 65%;
   }
-#about {
-  width: 100%;
-}
+
+  #about {
+    width: 100%;
+  }
+
   #about h2 {
     font-size: 1em;
     text-align: justify;
@@ -832,6 +864,7 @@ Large devices (1024px or larger)
     text-decoration: none;
     text-transform: none;
   }
+
   #copyright p {
     font-size: 1.3em;
   }
