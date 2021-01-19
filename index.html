@@ -18,31 +18,30 @@
   <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+  <script src="https://kit.fontawesome.com/acaf829432.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
     <div id="logo">
-      <picture>
-        <source srcset="img/home/mylogo@x1.png" media="(max-width:767px)">
-        <img src="img/home/mylogo@x2.png" alt="My Logo">
-      </picture>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+          <img class="logo" src="img/home/mylogo@x1.png" alt="Maggie Paradis Logo">
+        </div>
+        <nav class="navtoggle" id="myNavtoggle">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="navtoggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="navtoggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
   </header>
   <main>
     <div id="hero">
-            <picture>
-              <source srcset="img/home/hero@1x.jpg" media="(max-width:767px)">
-              <img src="img/home/hero@2x.jpg" alt="Hero Graphic">
-            </picture>
+      <picture>
+        <source srcset="img/home/hero@1x.jpg" media="(max-width:767px)">
+        <img src="img/home/hero@2x.jpg" alt="Hero Graphic">
+      </picture>
     </div>
     <div id="work">
       <h1>View Portfolio</h1>
@@ -110,12 +109,12 @@
         <div class="vertical"></div>
         <h2>
           I'm Maggie, a modern Designer with a<span>
-          passion for typography + color theory</span><span> that goes behind each design.</span>
+            passion for typography + color theory</span><span> that goes behind each design.</span>
         </h2>
         <div class="container">
           <a href="about.html" class="button" target="_self">Get to Know Me!</a>
+        </div>
       </div>
-    </div>
     </div>
   </main>
   <footer>

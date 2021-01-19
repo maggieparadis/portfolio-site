@@ -1,6 +1,6 @@
 /*
 Colors used:
-Background (cream): rgba(199, 186, 169, 0.05);
+background-color: #f9f7f6;
 Primary Color (pink): #e6cecb;
 Secondary Color (tan): #c7baa9;
 Secondary Color (burnt orange): #c1836c;
@@ -11,7 +11,7 @@ Typography Color (gray): #545859;
 }
 
 body {
-  background-color: rgba(199, 186, 169, 0.05);
+  background-color: #f9f7f6;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   /* Sets the font size to 16px */
@@ -23,11 +23,12 @@ body {
 }
 
 main {
-  background-color: rgba(199, 186, 169, 0.05);
+  background-color: #f9f7f6;
+  padding-top: 70px;
 }
 
 footer {
-  background-color: rgba(199, 186, 169, 0.05);
+  background-color: #f9f7f6;
   height: auto;
   padding-top: 10px;
 }
@@ -76,36 +77,55 @@ picture {
 
 /*layout styling*/
 header {
-  background-color: rgba(199, 186, 169, 0.05);
-  text-align: center;
-  position: relative;
+  position: fixed;
   width: 100%;
 }
-
 #logo {
-  display: inline-block;
-  padding: 16px 0px 0px 0px;
-  /* Adds 10px top, 5px right, 15px bottom, 5px left */
-  width: 23%;
-}
-
-nav {
-  display: inline-block;
+  background-color: #f9f7f6;
+  padding: 6px 14px;
   width: 100%;
+  border-bottom: 1px solid #e6cecb;
+}
+.logo {
+  margin: 15px 0px 6px 10px;
+  /* Adds 10px top, 5px right, 15px bottom, 5px left */
+  width: 30%;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: fixed;
+  left: 260px;
+  top: 4%;
+  font-size: 20px;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0px 0px;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid #e6cecb;
 }
 
+.navtoggle.responsive li:last-child  {
+  padding: 0 20px 10px;
+  border-bottom: none;
+}
 nav>ul {
+  background-color: #f9f7f6;
   list-style-type: none;
-  margin: 0px;
-  padding: 5px 1px 10px 1px;
-}
-
-nav>ul>li {
-  display: inline-block;
+  padding: 0px 10px 0px 8px;
+  margin-left: 60%;
+  margin-top: 0%;
+  text-indent: 10px;
 }
 
 nav>ul>li>a {
-  padding: 0 14px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
@@ -117,13 +137,11 @@ nav>ul>li>a {
   padding: 0 14px;
 }
 
-#hero {
-  /* id selector */
-  width: 100%;
-}
-
 /* home page layout */
+
+#hero,
 #work {
+  /* id selector */
   display: inline-block;
 }
 
@@ -164,7 +182,6 @@ nav>ul>li>a {
   text-align: center;
   padding: 5%;
   font-size: 12px;
-  border-top: 1px solid #e6cecb;
 }
 
 #meetmaggie p {
@@ -359,7 +376,7 @@ Medium devices (640px and larger)
   }
 
   main {
-    background-color: rgba(199, 186, 169, 0.05);
+    background-color: #f9f7f6;
     height: auto;
   }
 
@@ -371,14 +388,22 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 3% 0% 3% 3%;
   }
-
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
+  }
   nav {
     width: 65%;
     float: right;
     margin-top: 5%;
   }
-
+  nav > ul {
+    margin: 1em 0;
+  }
   nav>ul>li>a {
+    display: inline-block;
     padding: 0 18px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
@@ -389,6 +414,7 @@ Medium devices (640px and larger)
 
   #logo {
     padding-left: 3%;
+    min-width: 641px;
   }
 
   /* home page layout */
@@ -529,7 +555,7 @@ Medium devices (640px and larger)
 
   /* portfolio page layout */
   #portfolio {
-    background-color: rgba(199, 186, 169, 0.05);
+    background-color: #f9f7f6;
     padding: 1% 1%;
   }
 

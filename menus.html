@@ -23,19 +23,17 @@
 <body>
   <header>
     <div id="logo">
-      <picture>
-        <source srcset="img/home/mylogo@x1.png" media="(max-width:767px)">
-        <img src="img/home/mylogo@x2.png" alt="My Logo">
-      </picture>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+          <img class="logo" src="img/home/mylogo@x1.png" alt="Maggie Paradis Logo">
+        </div>
+        <nav class="navtoggle" id="myNavtoggle">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="navtoggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="navtoggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
   </header>
 
   <main id="pp_graphics">
