@@ -611,8 +611,10 @@ Medium devices (640px and larger)
   #pp h1,
   #pp_graphics h1 {
     font-size: 1.2em;
+    letter-spacing: .25em;
+    word-spacing: .2em;
+    color: #c1836c;
   }
-
   #pp p,
   #pp_graphics p {
     font-size: .75em;
@@ -887,7 +889,7 @@ Large devices (1024px or larger)
     font-size: 1.7em;
     letter-spacing: .25em;
     word-spacing: .25em;
-    color: #c7baa9;
+    color: #e6cecb;
   }
 
   #pp p,
