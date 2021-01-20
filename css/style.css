@@ -25,6 +25,7 @@ body {
 header {
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 main {
@@ -221,6 +222,7 @@ nav>ul>li>a {
 /* portfolio page layout */
 #portfolio {
   border-bottom: 1px solid #e6cecb;
+  z-index: -1;
 }
 
 #portfolio h1 {
@@ -471,7 +473,6 @@ Medium devices (640px and larger)
     display: inline-block;
     position: fixed;
     border-bottom: 1px solid #e6cecb;
-    z-index: 1;
   }
 
   #logo {
@@ -646,9 +647,6 @@ Medium devices (640px and larger)
   }
 
   /* portfolio page layout */
-  #portfolio{
-  z-index: 2;
-  }
   #portfolio .col-md-6 {
     padding: 1%;
   }
