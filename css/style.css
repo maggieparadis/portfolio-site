@@ -432,8 +432,11 @@ a:hover {
   width: 7%;
 }
 
+#portfolio a {
+  opacity: 50%;
+}
 #portfolio a:hover {
-  opacity: .3;
+  opacity: 100%;
 }
 /* ==============================
 Medium devices (640px and larger)
@@ -453,7 +456,7 @@ Medium devices (640px and larger)
 
   main {
     background-color: #f9f7f6;
-    margin-top: 14%;
+    margin-top: 14.75%;
     height: auto;
   }
 
@@ -464,9 +467,11 @@ Medium devices (640px and larger)
   header {
     background-color: #f9f7f6;
     padding: 6px 14px;
-    width: 100%;
+    min-width: 100%;
     display: inline-block;
+    position: fixed;
     border-bottom: 1px solid #e6cecb;
+    z-index: 1;
   }
 
   #logo {
@@ -641,10 +646,9 @@ Medium devices (640px and larger)
   }
 
   /* portfolio page layout */
-  #portfolio {
-    background-color: #f9f7f6;
+  #portfolio{
+  z-index: 2;
   }
-
   #portfolio .col-md-6 {
     padding: 1%;
   }
