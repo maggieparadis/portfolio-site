@@ -281,6 +281,11 @@ nav>ul>li>a {
   display: block;
 }
 /* Dress Up Layout */
+#du main {
+border-bottom: 1px solid #e6cecb;
+padding-bottom: 3%;
+}
+
 #du p {
   text-align: justify;
   font-size: 10px;
@@ -652,14 +657,14 @@ Medium devices (640px and larger)
   /* independent project page layouts pp=ui/ux pp_graphics=graphic design */
 
 #pp h1,
-#pp_graphics h1 {
+#pp_graphics h1, #du h1 {
   font-size: 1.2em;
   letter-spacing: .25em;
   word-spacing: .2em;
 }
 
 #pp p,
-#pp_graphics p {
+#pp_graphics p, #du p {
   font-size: .75em;
   line-height: 1.5em;
 }
@@ -690,6 +695,9 @@ Medium devices (640px and larger)
 }
 
 /* buttons */
+.dot {
+  margin-top: 25px;
+}
 .button {
   width: 25%;
 }
@@ -892,19 +900,25 @@ Large devices (1024px or larger)
   }
 
   #pp h1,
-  #pp_graphics h1 {
+  #pp_graphics h1, #du h1 {
     font-size: 1.7em;
     letter-spacing: .25em;
     word-spacing: .25em;
   }
 
   #pp p,
-  #pp_graphics p {
+  #pp_graphics p, #du p {
     font-size: 1em;
     padding-bottom: 8px;
     margin-bottom: 10px;
   }
-
+  #du {
+    padding: 3% 10%;
+  }
+  #du p {
+    padding-left: 20%;
+    padding-right: 20%;
+}
   #contact h4 {
     padding-bottom: 3%;
     font-size: 1.4em;
