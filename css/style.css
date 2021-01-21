@@ -433,13 +433,6 @@ a:hover {
   margin-right: 4px;
   width: 7%;
 }
-
-#portfolio a {
-  opacity: 50%;
-}
-#portfolio a:hover {
-  opacity: 100%;
-}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -768,7 +761,7 @@ Large devices (1024px or larger)
   nav {
     background-color: #f9f7f6;
     display: inline-block;
-    width: 43%;
+    width: 50%;
     float: right;
     margin-top: .75%;
   }
