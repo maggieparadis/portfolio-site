@@ -35,7 +35,6 @@ main {
 }
 
 footer {
-  background-color: #f9f7f6;
   height: auto;
   padding-top: 10px;
 }
@@ -159,15 +158,18 @@ nav>ul>li>a {
   text-align: left;
   margin: 6px 14px 14px 26px;
 }
+
 #work .row,
 #portfolio .row {
   display: inline-block;
   text-align: left;
   margin: 0px 10px;
 }
+
 .seen {
   display: none;
 }
+
 #about {
   /* id selector */
   display: inline-block;
@@ -282,10 +284,11 @@ nav>ul>li>a {
 #pp span {
   display: block;
 }
+
 /* Dress Up Layout */
 #du main {
-border-bottom: 1px solid #e6cecb;
-padding-bottom: 3%;
+  border-bottom: 1px solid #e6cecb;
+  padding-bottom: 3%;
 }
 
 #du p {
@@ -293,6 +296,7 @@ padding-bottom: 3%;
   font-size: 10px;
   padding: 0% 16%;
 }
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
@@ -339,13 +343,23 @@ padding-bottom: 3%;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 /* footer layout */
@@ -378,7 +392,7 @@ padding-bottom: 3%;
 
 #copyright p {
   padding-right: 3%;
-  letter-spacing: 5%;
+  letter-spacing: 1px;
 }
 
 /* links and buttons */
@@ -393,7 +407,9 @@ a:hover {
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
-
+.h2 a:hover >a:hover {
+  text-decoration: none;
+}
 .button {
   margin-bottom: 18px;
   display: inline-block;
@@ -433,6 +449,7 @@ a:hover {
   margin-right: 4px;
   width: 7%;
 }
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -479,9 +496,11 @@ Medium devices (640px and larger)
     margin-top: 8%;
     width: 150px;
   }
+
   .navtoggle.responsive li {
     border-bottom: none;
   }
+
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
@@ -521,12 +540,15 @@ Medium devices (640px and larger)
     margin: 0px;
     padding: 10px 8px 35px 8px;
   }
+
   .seen {
     display: contents;
   }
+
   .hide {
     display: none;
   }
+
   #work h1 {
     margin-top: 8px;
     padding-left: 5%;
@@ -555,6 +577,7 @@ Medium devices (640px and larger)
     display: inline-table;
     vertical-align: text-top;
   }
+
   #work .vl {
     display: inline-grid;
     border-left: 1px solid #c7baa9;
@@ -650,69 +673,69 @@ Medium devices (640px and larger)
   }
 
   /* independent project page layouts pp=ui/ux pp_graphics=graphic design */
+  #pp h1,
+  #pp_graphics h1, #du h1 {
+    font-size: 1.2em;
+    letter-spacing: .25em;
+    word-spacing: .2em;
+  }
 
-#pp h1,
-#pp_graphics h1, #du h1 {
-  font-size: 1.2em;
-  letter-spacing: .25em;
-  word-spacing: .2em;
-}
+  #pp p,
+  #pp_graphics p, #du p {
+    font-size: .75em;
+    line-height: 1.5em;
+  }
 
-#pp p,
-#pp_graphics p, #du p {
-  font-size: .75em;
-  line-height: 1.5em;
-}
+  /* footer layout */
+  #contact {
+    display: block;
+  }
 
-/* footer layout */
-#contact {
-  display: block;
-}
+  #contact .col-md-6 {
+    text-align: left;
+  }
 
-#contact .col-md-6 {
-  text-align: left;
-}
+  #contact h4 {
+    margin-bottom: 1em;
+    letter-spacing: 1px;
+  }
 
-#contact h4 {
-  margin-bottom: 1em;
-  letter-spacing: 1px;
-}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+  #copyright p {
+    margin: 0px;
+    padding: 1% 2%;
+  }
 
-#copyright p {
-  margin: 0px;
-  padding: 1% 2%;
-}
+  /* buttons */
+  .dot {
+    margin-top: 25px;
+  }
 
-/* buttons */
-.dot {
-  margin-top: 25px;
-}
-.button {
-  width: 25%;
-}
+  .button {
+    width: 25%;
+  }
 
-.button:hover {
-  background-color: #c7baa9;
-  color: #ffffff;
-  border: 1px solid #e6cecb;
-  text-decoration: none;
-}
+  .button:hover {
+    background-color: #c7baa9;
+    color: #ffffff;
+    border: 1px solid #e6cecb;
+    text-decoration: none;
+  }
 
-.button-contact {
-  text-align: left;
-  display: block;
-}
+  .button-contact {
+    text-align: left;
+    display: block;
+  }
 
-.button-social>a {
-  margin-right: .5em;
-  width: 12%;
-}
+  .button-social>a {
+    margin-right: .5em;
+    width: 12%;
+  }
 }
 
 /* ==============================
@@ -817,6 +840,7 @@ Large devices (1024px or larger)
     padding-bottom: 1%;
     line-height: 1.6em;
   }
+
   #about .vl {
     display: inline-table;
     border: 1px solid #c7baa9;
@@ -826,6 +850,7 @@ Large devices (1024px or larger)
     margin-right: 10px;
     margin-top: 70px;
   }
+
   #meetmaggie {
     display: inline-block;
     padding: 3%;
@@ -907,13 +932,16 @@ Large devices (1024px or larger)
     padding-bottom: 8px;
     margin-bottom: 10px;
   }
+
   #du {
     padding: 3% 10%;
   }
+
   #du p {
     padding-left: 20%;
     padding-right: 20%;
-}
+  }
+
   #contact h4 {
     padding-bottom: 3%;
     font-size: 1.4em;
